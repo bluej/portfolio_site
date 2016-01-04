@@ -148,7 +148,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+    background: url(../img/trekking.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -267,7 +268,8 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+    background: url(../img/portrait.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -378,20 +380,36 @@ body {
     margin-bottom: 3em;
 }
 
+/*.portrait {
+    float:left;
+    margin:30px;
+}*/
+
 /*for Portfolio section: allows image to stretch to correct size*/
 .fill {
     display:flex;
     justify-content:center;
     align-items:center;
-    overflow:hidden;
+    max-width:645px;
+    height:250px;
+    overflow: hidden;
+    padding: 0px;
+    position:relative;
+    margin-bottom:30px;
 }
 
 .fill img {
     flex-shrink:0;
-    /*min-width: 100%;
-    min-height: 100%;*/
-    max-width: 650px;
-    max-height: 650px;
+    
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    padding:0px;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 .text-faded {

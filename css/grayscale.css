@@ -148,7 +148,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/trekking.jpg) no-repeat bottom center scroll;
+    background: url(../img/trekking.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -267,7 +267,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/portrait2.jpg) no-repeat center center scroll;
+    background: url(../img/portrait2.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
